@@ -1,9 +1,9 @@
 # ESP32 IoT Control System
 
-[English](#english) | [中文](#中文)
+[English](#english) | [中文](README_CN.md)
 
 ## Project Overview
-
+You can visit this [URL](https://blog.csdn.net/weixin_44002696/article/details/124502124) for more content
 A smart home control system that connects ESP32 to a web interface through MySQL database.
 
 ### Components
