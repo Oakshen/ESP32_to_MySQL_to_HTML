@@ -6,6 +6,10 @@
 You can visit this [URL](https://blog.csdn.net/weixin_44002696/article/details/124502124) for more content
 A smart home control system that connects ESP32 to a web interface through MySQL database.
 
+## 📸 Preview
+
+![Preview](Pic.png)
+
 ### Components
 
 - ESP32 microcontroller

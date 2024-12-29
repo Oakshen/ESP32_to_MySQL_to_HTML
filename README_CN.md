@@ -6,6 +6,10 @@
 之前写的一个 [CSDN](https://blog.csdn.net/weixin_44002696/article/details/124502124) 在这，闲下来把代码传上来了
 一个通过 MySQL 数据库将 ESP32 连接到网页界面的智能家居控制系统。
 
+## 📸 Preview
+
+![Preview](Pic.png)
+
 ### 系统组件
 
 - ESP32 微控制器
