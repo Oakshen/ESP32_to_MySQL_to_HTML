@@ -1,0 +1,27 @@
+.html_title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.First_Level_Button {
+    background-color: rgb(252, 85, 49);
+    color: white;
+    border: none;
+    /*边框*/
+    height: 105px;
+    width: 105px;
+    border-radius: 5px;
+    /*设置矩形圆角*/
+    cursor: pointer;
+}
+
+.First_Level_Button:hover {
+    opacity: 0.7;
+    background-color: blue;
+}
+
+.First_Level_Button:active {
+    opacity: 0.5;
+    background-color: blueviolet;
+}

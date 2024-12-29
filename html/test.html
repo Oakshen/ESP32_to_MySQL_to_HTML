@@ -1,0 +1,133 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>用电器开关状态</title>
+</head>
+
+<style>
+    .html_title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+/* 定义按钮的形状 */
+.close {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    /*边框*/
+    height: 105px;
+    width: 105px;
+    border-radius: 5px;
+    /*设置矩形圆角*/
+    cursor: pointer;
+}
+/* 定义按钮鼠标悬浮后的效果 */
+.close:hover {
+    opacity: 0.5;
+}
+
+.open{
+    background-color: rgb(19, 212, 113);
+    color: white;
+    border: none;
+    /*边框*/
+    height: 105px;
+    width: 105px;
+    border-radius: 5px;
+    /*设置矩形圆角*/
+    cursor: pointer;
+}
+</style>
+
+
+<body>
+    <div class="html_title">
+        <p>用电器开关状态</p>
+    </div>
+    <div style="text-align:center">
+        <button class="close" id="b1">
+            用电器1
+            <img src="res2.png" style="width: 50px; height: 50px;">
+            
+        </button>
+        <button class="close" id="b2">
+            用电器2
+            <img src="light.png" style="width: 70px; height: 50px;">
+        </button>
+        <button class="close" id="b3">
+            用电器3
+            <img src="kettle.png" style="width: 60px; height: 50px;">
+        </button>
+
+        <script>
+            var b1_status =document.getElementById("b1")
+            b1_status.onclick=function(){
+                this.className='open'
+            }
+            var b2_status =document.getElementById("b2")
+            b2_status.onclick=function(){
+                this.className='open'
+            }
+            var b3_status =document.getElementById("b3")
+            b3_status.onclick=function(){
+                this.className='open'
+            }
+        </script>
+
+
+    </div>
+    
+    <br/>
+
+    <div style="text-align:center; margin-bottom: 20px;">
+        <button class="close" id="b4">
+            用电器4
+            <img src="big_light.png" style="width:50px; height: 50px;">
+        </button>
+        <button class="close" id="b5">
+            用电器5
+            <img src="flashlight.png" style="width: 50px; height: 50px;">
+        </button>
+        <button class="close" id="b6">
+            用电器6
+            <img src="fan.png" style="width: 55px; height: 50px;">
+        </button>
+
+        <script>
+            var b4_status =document.getElementById("b4")
+            b4_status.onclick=function(){
+                this.className='open'
+            }
+            var b5_status =document.getElementById("b5")
+            b5_status.onclick=function(){
+                this.className='open'
+            }
+            var b6_status =document.getElementById("b6")
+            b6_status.onclick=function(){
+                this.className='open'
+            }
+        </script>
+
+
+
+    </div>
+
+    <div style="text-align:center">
+        <button class="close" id="b7">
+            用电器7
+            <img src="kettle.png" style="width: 60px; height: 50px;">
+        </button>
+        <script>
+            var b7_status =document.getElementById("b7")
+            b7_status.onclick=function(){
+                this.className='open'
+            }
+        </script>
+
+    </div>
+
+
+</body>
+
+</html>
